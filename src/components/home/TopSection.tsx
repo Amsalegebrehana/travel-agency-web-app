@@ -45,7 +45,7 @@ export default function TopSection() {
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }} className='w-1/2'>
-                <Image src="/images/cover/image.svg" alt="hero-image" width={780} priority height={760} quality={100} />
+                <Image src="/images/cover/person-img.svg" alt="hero-image" width={780} priority height={760} quality={100} />
             </motion.div>
         </div>
     )
