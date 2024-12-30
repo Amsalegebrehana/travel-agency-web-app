@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function TopSection() {
     return (
+        
         <div className="flex flex-col md:flex-row justify-center gap-5 w-full">
             <motion.div initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
