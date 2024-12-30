@@ -34,7 +34,6 @@ export default function TopSection() {
                     sell they west hard for the.
                 </p>
 
-                {/* Buttons container */}
                 <div className='flex items-center gap-8 mt-4'>
                     <button className='bg-[#F1A501] text-white px-6 py-4 rounded-lg'>
                         Find out more
