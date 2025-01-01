@@ -1,6 +1,7 @@
 // import Image from "next/image";
 import TopSection from '@/components/home/TopSection';
 import BestServiceSection from '@/components/home/ServicesSection';
+import TopDestination from '@/components/home/TopDestination';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 
       <TopSection />
       <BestServiceSection />
+      <TopDestination />
     </div>
   );
 }
