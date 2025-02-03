@@ -1,7 +1,9 @@
-// import Image from "next/image";
 import TopSection from '@/components/home/TopSection';
 import BestServiceSection from '@/components/home/ServicesSection';
 import TopDestination from '@/components/home/TopDestination';
+import NextSteps from '@/components/home/NextSteps';
+// import Testimonials from '@/components/home/Testimonials';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +13,15 @@ export default function Home() {
       <TopSection />
       <BestServiceSection />
       <TopDestination />
+      <NextSteps />
+      {/* <Testimonials /> */}
+      <div className='flex justify-between w-full my-10'>
+          <Image src="/images/cover/axon-logo.svg" alt="background decoration" className='' width={120} height={70} />
+          <Image src="/images/cover/jetstar-icon.svg" alt="background decoration" width={120} height={50} />
+          <Image src="/images/cover/expedia-icon.svg" alt="background decoration" width={120} height={50} />
+          <Image src="/images/cover/quantas-logo.svg" alt="background decoration" width={120} height={50} />
+          <Image src="/images/cover/alitalia-icon.svg" alt="background decoration"  color='#374151' className='text-gray-700' width={120} height={50} />
+      </div>
     </div>
   );
 }

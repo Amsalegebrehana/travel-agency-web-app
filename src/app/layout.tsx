@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"  className={`${volkhov.variable}`}>
+    <html lang="en"  className={`${volkhov.variable}`} suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden mt-0`}
       >
